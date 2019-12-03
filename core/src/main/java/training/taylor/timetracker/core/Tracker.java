@@ -23,6 +23,11 @@ public class Tracker {
         entries.remove(entry);
     }
 
+    
+    public int size2() {
+        return entries.size();
+    }
+    
     public int size() {
         return entries.size();
     }
