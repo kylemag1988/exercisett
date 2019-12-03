@@ -21,7 +21,7 @@ public class TrackerCoreConfigTest {
     @Autowired
     List<TimeEntry> entries;
 
-    @Test
+    @test
     public void testMe() {
         assertNotNull(entries);
     }
